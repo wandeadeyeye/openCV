@@ -10,4 +10,8 @@ in this series i will show you how to load images, draw things on images, analys
 
 
 ## 01. OpenCV With Python - Introduction & Images
-in this introduction and images, we will load and image, display the image, resize the image, rotate the image and save the rotated image
+in this introduction and images, we will load an image, display the image, resize the image, rotate the image and save the rotated image.
+
+To start you import the opencv library, after which you load the image by entering the image path, the image name and the mode to load the image. by default cv2 load image in blue green red pattent instead of red blue green.
+
+we have three options to load the image,we can load it in GRAYSCALE, regular color image and without considering transparency
