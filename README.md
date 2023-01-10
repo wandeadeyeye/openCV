@@ -9,5 +9,5 @@ OpenCV introduces a new set of tutorials which will guide you through various fu
 in this series i will show you how to load images, draw things on images, analysis, face dectation and recongnition, object detection and recognitiong, track object moving around in an image or a video and so on.
 
 
-01. OpenCV With Python - Introduction & Images
+## 01. OpenCV With Python - Introduction & Images
 in this introduction and images, we will load and image, display the image, resize the image, rotate the image and save the rotated image
