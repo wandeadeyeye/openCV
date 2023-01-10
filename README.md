@@ -14,4 +14,11 @@ in this introduction and images, we will load an image, display the image, resiz
 
 To start you import the opencv library, after which you load the image by entering the image path, the image name and the mode to load the image. by default cv2 load image in blue green red pattent instead of red blue green.
 
-we have three options to load the image,we can load it in GRAYSCALE, regular color image and without considering transparency
+we have three options to load the image:
+
+'-1' cv2.IMREAD_COLOR: loads a color image. any transparency will be neglected. it is the default flag
+ '0' cv2.IMREAD_GRAYSCALE: loads images in a grayscale mode
+ '1' cv2.IMREAD_UNCHANGED: loads image as such including alpha channel 
+
+after we've succefully loaded this image, next we will display the image 
+
