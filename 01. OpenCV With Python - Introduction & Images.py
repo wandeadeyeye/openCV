@@ -15,7 +15,7 @@ img = cv2.resize(img, (0,0), fx= 0.6, fy= 0.6)
 img = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
 
 # save an image
-cv2.imwrite('new_apple.jpg', img)
+cv2.imwrite('01_new_apple.jpg', img)
 
 # display the image
 cv2.imshow('Image', img)
