@@ -17,7 +17,9 @@ To start you import the opencv library, after which you load the image by enteri
 we have three options to load the image:
 
 '-1' cv2.IMREAD_COLOR: loads a color image. any transparency will be neglected. it is the default flag
+ 
  '0' cv2.IMREAD_GRAYSCALE: loads images in a grayscale mode
+ 
  '1' cv2.IMREAD_UNCHANGED: loads image as such including alpha channel 
 
 after we've succefully loaded this image, next we will display the image 
