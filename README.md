@@ -22,3 +22,5 @@ we have three options to load the image:
 
 after we've succefully loaded this image, next we will display the image 
 
+## 02. OpenCV With Python - Image Fundamentals and Manipulation
+
