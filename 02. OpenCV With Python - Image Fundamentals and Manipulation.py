@@ -24,6 +24,9 @@ img[100:300, 550:850] = tag
 # display the image
 cv2.imshow('Image', img)
 
+# save an image
+cv2.imwrite('02_new_apple.jpg', img)
+
 # wait time after image is loaded '0' = infinity, '10' = 10 seconds
 cv2.waitKey(0)
 
