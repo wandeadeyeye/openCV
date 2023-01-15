@@ -22,7 +22,11 @@ we have three options to load the image:
  
  '1' cv2.IMREAD_UNCHANGED: loads image as such including alpha channel 
 
-after we've succefully loaded this image, next we will display the image 
+after we've succefully loaded this image, next we will display the image with the aprprate command, add label and the name of the image we want to show, before loading the the image we need to create a way to close the window. To do this, we create waitkey for infinite time and distroy the window after.
+
+we can also rotate the image either clockwise or anti-clockwise direction
+
+
 
 ## 02. OpenCV With Python - Image Fundamentals and Manipulation
 
