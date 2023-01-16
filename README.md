@@ -26,6 +26,7 @@ after we've succefully loaded this image, next we will display the image with th
 
 we can also rotate the image either clockwise or anti-clockwise direction. To rotate in a clockwise direction we enter this line of code 'img = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)'
 
+As we can see from the output, the image is large, we can resize it to make it visible in all it's form, 
 
 
 ## 02. OpenCV With Python - Image Fundamentals and Manipulation
