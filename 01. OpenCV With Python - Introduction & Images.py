@@ -20,7 +20,7 @@ cv2.imwrite('01_new_apple.jpg', img)
 # display the image
 cv2.imshow('Image', img)
 
-# wait time after image is loaded '0' = infinity, '10' = 10 seconds
+# wait time after image is loaded '0' = infinite, '10' = 10 seconds
 cv2.waitKey(0)
 
 # to distroy all windows
