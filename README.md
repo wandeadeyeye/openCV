@@ -10,7 +10,8 @@ in this series i will show you how to load images, draw things on images, analys
 
 
 ## 01. OpenCV With Python - Introduction & Images
-in this introduction and images, we will load an image, display the image, resize the image, rotate the image and save the rotated image.
+
+In this introduction and images, we will load an image, display the image, resize the image, rotate the image and save the rotated image.
 
 To start you import the opencv library, after which you load the image by entering the image path, the image name and the mode to load the image. by default cv2 load image in blue green red pattent instead of red blue green.
 
@@ -22,9 +23,9 @@ we have three options to load the image:
  
  '1' cv2.IMREAD_UNCHANGED: loads image as such including alpha channel 
 
-after we've succefully loaded this image, next we will display the image with the approprate command, add label and the name of the image we want to show, before loading the image we need to create a way to close the window. To do this, we create waitkey for infinite time and distroy the window after.
+After we've succefully loaded this image, next we will display the image with the approprate command, add label and the name of the image we want to show, before loading the image we need to create a way to close the window. To do this, we create waitkey for infinite time and distroy the window after.
 
-we can also rotate the image either clockwise or anti-clockwise direction. To rotate in a clockwise direction we enter this line of code 'img = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)'
+We can also rotate the image either clockwise or anti-clockwise direction. To rotate in a clockwise direction we enter this line of code 'img = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)'
 
 As we can see from the vizulized image, the image is large, we can resize it to make it visible in all it's form, to do that we will run this line of code to reduiced the size "img = cv2.resize(img, (0,0), fx= 0.6, fy= 0.6)" enter the 'img' feature and the reduction scale for both axis
 
