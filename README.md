@@ -32,4 +32,4 @@ As we can see from the vizulized image, the image is large, we can resize it to 
 
 ## 02. OpenCV With Python - Image Fundamentals and Manipulation
 
-in this part we will dive into how image is represented in the computer, if we print out the image, we can see how the image is interprinted by the computer, if we print out the image, we see a numpy array thats how the computer can relate and communicate 
+in this part we will dive into how image is represented in the computer, if we print out the image, we can see how the image is interprinted by the computer, we see a numpy array that's how the computer can relate and how we communicate with the computer
