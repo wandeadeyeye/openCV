@@ -32,4 +32,4 @@ As we can see from the vizulized image, the image is large, we can resize it to 
 
 ## 02. OpenCV With Python - Image Fundamentals and Manipulation
 
-in this part we will dive into how image is represented in the computer, if we print out the image, we can see how the image is interprinted by the computer, we see a numpy array that's how the computer can relate and how we communicate with the computer
+in this part we will dive into how image is represented in the computer, how we communicate with the computer and how it reads it. if we print out the image the output will show pixel values, we can see how the image is interprinted by the computer, we see a numpy array that's how the computer can relate and how we communicate with the computer. in openCV we use numpy because they are closely related, when we load an image it extract the pixels from the image and load them as numpy array thats why if we check the type function we will get 'numpy.ndarray' 
