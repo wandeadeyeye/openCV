@@ -36,3 +36,4 @@ in this part we will dive into how image is represented in the computer, how we 
 
 To get more understanding about our image, we can check the shape of the image, it will show us the number of rolls, colums and channels of the image respectively. The channel here represent the color space of the image, the value that represent each pixels which is Blue, Green and Red in openCV instead of the standard Red, Green and Blue respectively.
 
+ASSES PIXEL VALUES
