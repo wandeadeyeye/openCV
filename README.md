@@ -36,4 +36,4 @@ in this part we will dive into how image is represented in the computer, how we 
 
 To get more understanding about our image, we can check the shape of the image, it will show us the number of rolls, colums and channels of the image respectively. The channel here represent the color space of the image, the value that represent each pixels which is Blue, Green and Red in openCV instead of the standard Red, Green and Blue respectively. the value for the pixels ranges between 0 to 255, the value appointed will determine the color this is important because when we manipulate the image all we are doing is modifing the numbers in the ndarray.
 
-The next step is to cut  part of the image and move it to another part of the image 8 50
+The next step is to cut  part of the image and move it to another part of the image, we do this by taking part of the array we want and paste it on the other part of the arry we want it to be 8 50
