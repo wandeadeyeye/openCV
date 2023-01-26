@@ -18,8 +18,8 @@ print(img.shape)
 print(img[0])
 
 # copy image
-tag = img[400:700, 300:600] # copy square image
-img[300:600, 550:850] = tag # paste image
+tag = img[400:700, 400:600] # copy square image
+img[300:600, 300:500] = tag # paste image
 
 # display the image
 cv2.imshow('Image', img)
