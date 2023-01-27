@@ -36,7 +36,7 @@ in this part we will dive into how image is represented in the computer, how we 
 
 To get more understanding about our image, we can check the shape of the image, it will show us the number of rolls, colums and channels of the image respectively. The channel here represent the color space of the image, the value that represent each pixels which is Blue, Green and Red in openCV instead of the standard Red, Green and Blue respectively. the value for the pixels ranges between 0 to 255, the value appointed will determine the color this is important because when we manipulate the image all we are doing is modifing the numbers in the ndarray.
 
-The next step in our manipulation process is to cut part of the image and move it to another part of the image, we do this by taking part of the array we want and paste it on the other part of the array we want it to be using numpy array slice. To do this, we slice the 12:00
+The next step in our manipulation process is to cut part of the image and move it to another part of the image, we do this by taking part of the array we want and paste it on the other part of the array we want it to be using numpy array slice. To do this, we copy from row 400 to 700 then within row 400 and 700 we want to copy from 400 to 600. What this will do is copy from from our image row 400 to 700 and not including 700 and it will copy all of row 400 to 600 within 400 to 700 after we will paste it into part of the array, we choose the position and make sure it is equall in shape and dimension that we have copy  12:00
 
 
 ## 03. 
