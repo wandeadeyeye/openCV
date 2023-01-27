@@ -39,4 +39,4 @@ To get more understanding about our image, we can check the shape of the image, 
 The next step in our manipulation process is to cut part of the image and move it to another part of the image, we do this by taking part of the array we want and paste it on the other part of the array we want it to be using numpy array slice. To do this, we copy from row 400 to 700 then within row 400 and 700 we want to copy from 400 to 600. What this will do is copy from our image row 400 to 700 and not including 700 and it will copy all of row 400 to 600 within 400 to 700 after we will paste it into part of the array, we choose the position and make sure it is equall in shape and dimension that we have copy
 
 
-## 03. 
+## 03. Cameras and Video Capture
