@@ -19,9 +19,9 @@ we have three options to load the image:
 
 '-1' cv2.IMREAD_COLOR: loads a color image. any transparency will be neglected. it is the default flag
  
- '0' cv2.IMREAD_GRAYSCALE: loads images in a grayscale mode
+'0' cv2.IMREAD_GRAYSCALE: loads images in a grayscale mode
  
- '1' cv2.IMREAD_UNCHANGED: loads image as such including alpha channel 
+'1' cv2.IMREAD_UNCHANGED: loads image as such including alpha channel 
 
 After we've succefully loaded this image, next we will display the image with the approprate command, add label and the name of the image we want to show, before loading the image we need to create a way to close the window. To do this, we create waitkey for infinite time and distroy the window after.
 
@@ -32,11 +32,11 @@ As we can see from the vizulized image, the image is large, we can resize it to 
 
 ## 02. OpenCV With Python - Image Fundamentals and Manipulation
 
-in this part we will dive into how image is represented in the computer, how we communicate with the computer and how it reads it. if we print out the image the output will show pixel values, we can see how the image is interprinted by the computer, we see a numpy array that's how the computer can relate and how we communicate with the computer. in openCV we use numpy because they are closely related, when we load an image it extract the pixels from the image and load them as numpy array thats why if we check the type function we will get 'numpy.ndarray'.
+In this part we will dive into how image is represented in the computer, how we communicate with the computer and how the computer reads it. If we print out the image the output will show pixel values, we can see how the image is interprinted by the computer, we see a numpy array that's how the computer can relate and how we communicate with the computer. in openCV we use numpy because they are closely related, when we load an image it extract the pixels from the image and load them as numpy array thats why if we check the type function we will get 'numpy.ndarray'.
 
-To get more understanding about our image, we can check the shape of the image, it will show us the number of rolls, colums and channels of the image respectively. The channel here represent the color space of the image, the value that represent each pixels which is Blue, Green and Red in openCV instead of the standard Red, Green and Blue respectively. the value for the pixels ranges between 0 to 255, the value appointed will determine the color this is important because when we manipulate the image all we are doing is modifing the numbers in the ndarray.
+To get more understanding about our image, we can check the shape of the image, it will show us the number of rolls, colums and channels of the image respectively. The channel here represent the color space of the image, the value that represent each pixels which is Blue, Green and Red in openCV instead of the standard Red, Green and Blue respectively. The value for the pixels ranges between 0 to 255, the value appointed will determine the color this is important because when we manipulate the image all we are doing is modifing the numbers in the ndarray.
 
-The next step in our manipulation process is to cut part of the image and move it to another part of the image, we do this by taking part of the array we want and paste it on the other part of the array we want it to be using numpy array slice. To do this, we copy from row 400 to 700 then within row 400 and 700 we want to copy from 400 to 600. What this will do is copy from from our image row 400 to 700 and not including 700 and it will copy all of row 400 to 600 within 400 to 700 after we will paste it into part of the array, we choose the position and make sure it is equall in shape and dimension that we have copy  12:00
+The next step in our manipulation process is to cut part of the image and move it to another part of the image, we do this by taking part of the array we want and paste it on the other part of the array we want it to be using numpy array slice. To do this, we copy from row 400 to 700 then within row 400 and 700 we want to copy from 400 to 600. What this will do is copy from our image row 400 to 700 and not including 700 and it will copy all of row 400 to 600 within 400 to 700 after we will paste it into part of the array, we choose the position and make sure it is equall in shape and dimension that we have copy
 
 
 ## 03. 
