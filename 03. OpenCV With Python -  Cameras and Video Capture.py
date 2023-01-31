@@ -20,6 +20,8 @@ while True:
 	
 	cv2.imshow('frame', video)
 
+
+
 	if cv2.waitKey(1) == ord('e'):
 		break
 
