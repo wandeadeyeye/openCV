@@ -1,11 +1,11 @@
-#import libraries
+# import libraries
 import numpy as np
 import cv2
 
-#load the video file
+# load the video file
 file = cv2.VideoCapture('assets/zuck.mp4')
 
-#loop
+# loop
 while True:
 	ret, frame = file.read()		
 	
@@ -14,6 +14,8 @@ while True:
 	if cv2.waitKey(1) == ord('e'):
 		break
 
-
+# release the file
 file.release()
+
+# to distroy all windows
 cv2.destroyAllWindows()
