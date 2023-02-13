@@ -41,3 +41,4 @@ The next step in our manipulation process is to cut part of the image and move i
 
 ## 03. Cameras and Video Capture
 
+update soon
