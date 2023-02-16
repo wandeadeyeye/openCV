@@ -41,4 +41,4 @@ The next step in our manipulation process is to cut part of the image and move i
 
 ## 03. Cameras and Video Capture
 
-update soon
+in this third series we will descuse about camera how we can manipulate our webcam but for this example we will a video from the gallery, we will take the video, duplicate it and rotate it in different direction all in one frame
