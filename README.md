@@ -41,4 +41,10 @@ The next step in our manipulation process is to cut part of the image and move i
 
 ## 03. Cameras and Video Capture
 
-in this third series we will descuse about camera how we can manipulate our webcam but for this example we will a video from the gallery, we will take the video, duplicate it and rotate it in different direction all in one frame and display it. to do this a webcam is needed  but if you dont have one, you use a video from your computer just as we will do in this case. the first thing is to import the numpy and the cv2 library next is to load the file we will use in this case a video file in the assets folder, in case you want to use the webcam, '0' will be in place of the file location, '0' starts for the first webcan, '1' stands for the second webcam in case of more there is more then 1 webcam,
+in this third series we will descuse about camera how we can manipulate our webcam but for this example we will a video from the gallery, we will take the video, duplicate it and rotate it in different direction all in one frame and display it. to do this a webcam is needed  but if you dont have one, you use a video from your computer just as we will do in this case. the first thing is to import the numpy and the cv2 library next is to load the file we will use in this case a video file in the assets folder, in case you want to use the webcam, '0' will be in place of the file location, '0' starts for the first webcan, '1' stands for the second webcam in case of more there is more then 1 webcam and so on.
+
+what we will do next is create a while infinit loop, get a frame from the file
+'while True:
+    ret, frame = file.read()
+
+what will happen is that the 'file.read()' will return the frame from the file which is the video file the numpy array that represent the vedio file 
