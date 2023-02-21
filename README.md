@@ -49,4 +49,4 @@ what we will do next is create a while infinit loop, get a frame from the file
 
 what will happen is that this 'file.read()' will return the frame from the file which is the video file the numpy array that represent the video file, while 'ret' will let us know if the caption works properly.
 
-After weve sucessfully done that, now its time to show the file and to do that 
+After weve sucessfully done that, now its time to show the file and to do that we will run the 'cv2.imshow('frame', video)' command and insert 'frame' and 'video' as values
